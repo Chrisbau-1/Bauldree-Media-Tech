@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+}
+
+.welcome {
+    background-image: url("images/slider-background-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+#heading {
+    background-color: #1e90ff;
+}
+.col-sm-4 {
+    color: #ffffff;
+}
+.about {
+    background-color: #1e90ff;
+    height: 100vh;
+}
+h2 {
+    color: #1e90ff;
+}
+.col-md-11 {
+    color: #ffffff;
+    margin: 60px;
+    width:100%;
+}
+.col-l-12 {
+    color: #ffffff;
+    margin: 30px;
+
+    width: 100%;
+    text-align: center;
+}
+#contact-us {
+    background-color: #ffffff;
+    height: 100vh;
+}
+.col-l-8 {
+    color: #1e90ff;
+    margin: 60px;
+    width: 100%;
+}
+@media only screen and (max-width: 575px){
+    .welcome{
+        padding-top: 100px;
+        height: 100vh;
+    }
+    
+}
